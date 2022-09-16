@@ -1,0 +1,272 @@
+
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+/*estilos de Presentacion*/
+#fondoDePortada {
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 2rem;
+}
+/*primera seccion*/
+.contenedorPrimeraSeccion{
+    color:#FFFAF4;
+    width: 75%;
+    padding: 4rem 2rem;
+    background-color: rgba(0,0,0, 0.6);
+
+}
+.contenedorPrimeraSeccion button {
+    display: block;
+    margin: auto;
+}
+
+/*div PRODUCTOS */
+.productos {
+    text-align: center;
+    color: #e3d6c6;
+    padding: 2rem;
+    background: #595454;
+}
+/* productos- ddl Tradicional*/
+.ddlTradicional img {
+    width: 100%;
+}
+.ddlTradicional .texto {
+    background: #1a1919;
+    height: auto;
+    padding:1rem;
+}
+
+.ddlTradicional .texto h2 {
+    color: #977962;
+    font-weight: 200;
+    text-align: center;
+}
+.ddlTradicional .texto .uno{
+    color: #8C8C8C;
+    padding: 0 3rem 0 3rem;
+
+}
+.ddlTradicional .texto .dos{
+    color: #977962 ;
+    padding: 0 3rem 0 3rem;
+    font-weight: bold;
+}
+.ddlTradicional button {
+    display: block;
+    margin: auto;
+    background: none;
+    color:#977962; 
+    border : solid 2px #977962 ;
+    font-weight: bold;
+}
+.alfajores img {
+    width: 100%;
+}
+.alfajores .texto {
+    background: #BCA177;
+    height: auto;
+    padding:1rem;
+}
+.alfajores .texto h2{
+    color: #62411D;
+    text-align: center;
+    font-weight: 200;
+}
+.alfajores .texto .uno{
+    color: #F6F3EE;
+    padding: 0 3rem 0 3rem;
+}
+.alfajores .texto .dos{
+    color:#62411D ;
+    padding: 0 3rem 0 3rem;
+    font-weight: bold;
+}
+.alfajores button {
+    display: block;
+    margin: auto;
+    background: none;
+    color:#62411D; 
+    border : solid 2px #62411D ;
+    font-weight: bold;
+}
+/*iconos de elaboracion*/
+.iconos-elaboracion {
+    background: #343131;
+    color: white;
+    padding: 1rem;
+}
+.iconos-elaboracion h3, h4{
+    text-align: center;
+}
+.iconos-elaboracion ul{
+    display: flex;
+    padding: 0;
+}
+.iconos-elaboracion li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iconos-elaboracion ul li img{
+    width: 32%;
+}
+.iconos-elaboracion ul li span{
+    text-align: center;
+    font-size: 14px;
+    color: wheat;
+}
+
+/*contacto*/
+.contacto img{
+    width: 100%;
+}
+
+.contacto .form {
+    background: white;
+    height: auto;
+    padding:1rem;
+    color: #856A4E;
+}
+.contacto .form p {
+    font-weight: bold;
+    margin: 1rem 2rem;
+}
+.contacto form {
+    width: 70%;
+    margin: 0 auto;
+}
+.contacto form input  {
+    background: #856A4E;
+}
+.contacto form textarea  {
+    background: #856A4E;
+}
+.contacto form button {
+    display: block;
+    margin: auto;
+    background: none;
+    color:#856A4E; 
+    border : solid 2px #856A4E ;
+    font-weight: bold;
+}
+
+/*recetas*/
+.recetasMobile{
+    padding: 1rem;
+    background: #232121;
+    color: white;
+}
+.recetasMobile h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.recetasMobile .text {
+    background: #bca177cf;
+    color: white;
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+    bottom: 0;
+}
+.recetasMobile .text h4{
+        font-weight: 100;
+        text-align: center;
+}
+.recetasMobile .preparacion {
+    display: block;
+    margin: auto;
+    background: none;
+    color:#e3d6c6; 
+    border : solid 2px #e3d6c6 ;
+    font-weight: bold;
+    }
+
+/*FOOTER*/
+.contentFooter{
+    display: flex;
+    gap: 5px;
+    background: #0B0A0A;
+    padding: 1rem;
+}
+.content h5 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 14px;
+    color: wheat;
+}
+.content ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    padding: 0 15px 0 0px;
+    margin-left: 20px;
+    justify-items: initial;
+}
+.content ul li {
+    font-size: 12px;
+}
+.content ul img {
+    margin-bottom: 10px;
+}
+.content .ubicacion {
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ayuda memoria: max = hasta y min = desde; max = antes de y min= despues de */
+
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+  
+}
+
+@media only screen and (min-width: 961px) and (max-width:1200px) {
+   
+}
+
+@media only screen and (min-width: 1201px) {
+    .contenedorPrimeraSeccion{
+        width: 34%;
+       
+    
+    }
+    #fondoDePortada {
+        display:flex;
+        justify-content: flex-end;
+        
+
+    }
+    .contenedorPrimeraSeccion button {
+        display: block;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+}
+
