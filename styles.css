@@ -247,10 +247,18 @@ ul {
         display:none;
         visibility: hidden;
         }
+    .fondoDePortada {
+        width: 100%;
+    }
+}
+.contenedorPrimeraSeccion {
+    width: 100%;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 960px) {
-  
+    .contenedorPrimeraSeccion {
+        width: 75%;
+    }
 }
 
 @media only screen and (min-width: 961px) and (max-width:1200px) {
@@ -276,4 +284,3 @@ ul {
     }
 
 }
-
