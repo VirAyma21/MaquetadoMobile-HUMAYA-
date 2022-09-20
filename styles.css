@@ -250,7 +250,25 @@ ul {
     .fondoDePortada {
         width: 100%;
     }
+    .ddlTradicional .texto .uno {
+        padding: 0 1rem 0 1rem;
+    }
+    .ddlTradicional .texto .dos {
+        padding: 0 2rem 0 2rem;
+        text-align: center;
+    }
+    .alfajores .texto .uno {
+        padding: 0;
+    }
+    .alfajores .texto .dos {
+        padding: 0 1rem 0 1rem;
+        text-align: center;
+    }
+    .iconos-elaboracion h4{
+        font-size: 18px;
+    }
 }
+
 .contenedorPrimeraSeccion {
     width: 100%;
 }
