@@ -62,6 +62,9 @@ ul {
     padding: 0 3rem 0 3rem;
     font-weight: bold;
 }
+.corto {
+    margin-bottom: 2.5rem;
+}
 .ddlTradicional button {
     display: block;
     margin: auto;
@@ -75,7 +78,7 @@ ul {
 }
 .alfajores .texto {
     background: #BCA177;
-    height: auto;
+   /* height: auto;*/
     padding:1rem;
 }
 .alfajores .texto h2{
@@ -300,5 +303,35 @@ ul {
         margin: auto;
         margin-top: 3rem;
     }
-
+    .seccionUno {
+        display: flex;
+        flex-direction: row;
+    }
+    .seccionDos {
+        display: flex;
+        flex-direction: row;
+    }
+    .iconos-elaboracion ul {
+        justify-content: center;
+    }
+    .carousel {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .contacto form {
+        width: 50%;
+        
+    }
+    .contentFooter {
+        justify-content: center;
+    }
+    .content {
+        padding: 2rem;
+    }
+    .ddlTradicional {
+        width: 75%;
+    }
+    .alfajores .texto {
+        padding:1.5rem;
+    }
 }
